@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.summary      = "Macros for iOS development"
 
   s.description  = <<-DESC
-                   Macros for iOS development
+                   Macros utilities for iOS development
                    DESC
 
   s.homepage     = "https://github.com/mozeal/JS_Macros"
