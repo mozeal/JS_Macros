@@ -19,6 +19,7 @@
 #define APPLICATION_FOLDER [NSString stringWithFormat:@"%@/%@.app", NSHomeDirectory(), BUNDLE_NAME]
 #define DOCUMENTS_FOLDER [NSString stringWithFormat:@"%@/Documents", NSHomeDirectory()]
 #define CACHE_FOLDER [NSString stringWithFormat:@"%@/Library/Caches", NSHomeDirectory()]
+#define RESOURCE_FOLDER [[NSBundle mainBundle] resourcePath]
 
 #define SCREENSIZE [UIScreen mainScreen].bounds.size
 #define SCREENSCALE [UIScreen mainScreen].scale
