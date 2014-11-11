@@ -9,7 +9,7 @@
 #ifndef PinnShop_JS_Macros_h
 #define PinnShop_JS_Macros_h
 
-
+#define BUNDLE_ID [[NSBundle mainBundle] bundleIdentifier]
 #define BUNDLE_NAME [[[NSBundle mainBundle] infoDictionary]objectForKey:@"CFBundleExecutable"]
 #define DISPLAY_NAME [[[NSBundle mainBundle] infoDictionary]objectForKey:@"CFBundleName"]
 #define BUNDLE_VERSION [[[NSBundle mainBundle] infoDictionary]objectForKey:@"CFBundleVersion"]
